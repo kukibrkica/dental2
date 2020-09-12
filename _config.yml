@@ -18,7 +18,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Opšta ordinacija denalne medicine
 twitter_username: username
-baseurl: "/dental2/"
+baseurl: /dental2/
 url: https://kukibrkica.github.io/dental2
 github_username: username
 minimal_mistakes_skin: default
