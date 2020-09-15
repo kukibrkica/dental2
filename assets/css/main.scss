@@ -448,11 +448,13 @@
   margin-left: 73px;
 }
 
-.page__hero--overlay{
-  height: 30em;
-}
 
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials      
+
+
+.page__hero--overlay{
+  height: 30em;
+}
