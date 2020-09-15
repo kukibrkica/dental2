@@ -7,23 +7,14 @@ main:
   - title: "Cenovnik"
   #  url: /Cenovnik.html
   - title: "Usluge"
-    url: /_pages/Usluge
-    children:
-      - title: "Bolesti zuba i endodoncija"
-        url: /_pages/Bolesti
-      - title: "Oralna hirurgija i implantologija" 
-        url:
-      - title: "Prodontologija" 
-        url:
-      - title: "Decija stomatologija" 
-        url:
-      - title: "Ortodoncija" 
-        url:        
-      - title: "Protetika" 
-        url:
-      - title: "Podmladjivanje lica" 
-        url:      
+  #  url: /_pages/Usluge     
   - title: "Galerija"
       #url: /404.html
   - title: "Kontakt"
   #   url: /sitemap/
+
+
+foo:
+
+  - title: "Bolesi zuba"
+    url: /_pages/page1
