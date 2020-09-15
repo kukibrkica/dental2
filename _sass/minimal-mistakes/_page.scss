@@ -124,15 +124,6 @@ body {
     }
   }
 
-  a:not(.btn) {
-    &:hover {
-      text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 0px rgba(#000, 0.00);
-      }
-    }
-  }
 
   dt {
     margin-top: 1em;
