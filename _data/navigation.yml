@@ -8,6 +8,7 @@ main:
     url: /Cenovnik
     children:
       - title: "cenovnik1"
+        url: /bla
   - title: "Usluge"
     #url: /_pages/Usluge    
   - title: "Galerija"
