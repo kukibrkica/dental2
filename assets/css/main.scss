@@ -354,6 +354,7 @@
   display: block;
   overflow: hidden;
   border-radius: 0px;
+  text-align: center;
 }
 
 .modGallery ul.gallery li a .overlay {
@@ -376,11 +377,11 @@
   opacity: 0;
 }
 .modGallery ul.gallery li a h3 {
-  color: #964B8C;
+  color: #6f777d;
   margin-bottom: 10px;
 }
 .modGallery ul.gallery li a p {
-  color: #964B8C;
+  color: #6f777d;
   font-size: 0.875rem;
 }
 .modGallery ul.gallery li a:hover .overlay {
@@ -406,7 +407,7 @@
   opacity: 0.1;
 }
 .modGallery ul.gallery.seperated li {
-  padding: 40px;
+  padding: 5px;
 }
 .modIconText .icon-text-circle {
   text-align: center;
@@ -448,31 +449,16 @@
   margin-left: 73px;
 }
 
-
-
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials      
-
-
 .page__hero--overlay{
   height: 30em;
 }
-
-///.mod.modGallery .row ///.gallery.large-block-grid-4.medium-block-grid-3.seperated.small-block-grid-2 a, ///a:hover, a:focus, a:active, a:link {
-///  text-decoration: none;
-///  color: transparent;
-///}
 
 .mod.modGallery a:link {
   text-decoration: none;
   color: transparent;
 }
 
-.page__content p, h3{
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 4em;
-  margin-left: 0px;
-  text-align: center;
-}
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
