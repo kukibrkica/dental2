@@ -6,8 +6,10 @@ main:
   #  url: /_pages/Cenovnik
   - title: "Cenovnik"
     url: /Cenovnik
+    children:
+      - title: "cenovnik1"
   - title: "Usluge"
-    url: /_pages/Usluge    
+    #url: /_pages/Usluge    
   - title: "Galerija"
       #url: /404.html
   - title: "Kontakt"
