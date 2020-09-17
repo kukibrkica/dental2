@@ -458,7 +458,13 @@
   color: transparent;
 }
 
-
+.page__content p, h3{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 4em;
+  margin-left: 0px;
+  text-align: center;
+}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
