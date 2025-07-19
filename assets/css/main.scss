@@ -65,3 +65,25 @@
 /* OVDE UBACUJEŠ POSTOJEĆI CSS KOJI SI MI POSLALA */
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+/* PARALLAX HERO ZA SVE STRANICE */
+.page__hero {
+  position: relative;
+  background-image: url('/assets/images/smile2.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.page__hero h1 {
+  font-size: 2.8em;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  margin: 0;
+}
